@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <!--
+    UI-free shared product models (ChatModel, SettingsModel and the tool-toggle helpers).
+    netstandard2.0 + no UI references, so the models are testable headless.
+  -->
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <Nullable>annotations</Nullable>
+    <RootNamespace>Agent.Models</RootNamespace>
+    <AssemblyName>Agent.Models</AssemblyName>
+    <PackageId>Agent.Models</PackageId>
+    <Description>UI-free shared models (chat, settings).</Description>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Agent.Mvvm\Agent.Mvvm.csproj" />
+  </ItemGroup>
+
+</Project>

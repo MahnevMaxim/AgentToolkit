@@ -1,0 +1,11 @@
+<Project>
+  <!-- Common packaging properties for every AgentShared package. -->
+  <PropertyGroup>
+    <Version>1.7.1</Version>
+    <Authors>Maxxx</Authors>
+    <LangVersion>latest</LangVersion>
+    <Nullable>disable</Nullable>
+    <Deterministic>true</Deterministic>
+    <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
+  </PropertyGroup>
+</Project>

@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <!--
+    UI-free MVVM framework shared across the agent hosts.
+    This assembly must NEVER reference PresentationFramework/PresentationCore/WindowsBase
+    and must stay netstandard2.0 so that models built on top of it are unit testable
+    from any net8.0 test project (mirrors the RPAWriter2 ModelArchitectureTests rule).
+  -->
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <RootNamespace>Agent.Mvvm</RootNamespace>
+    <AssemblyName>Agent.Mvvm</AssemblyName>
+    <PackageId>Agent.Mvvm</PackageId>
+    <Description>UI-free MVVM primitives (BaseModel, BaseViewModel, IView, RelayCommand).</Description>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,6 @@
+<Solution>
+  <Project Path="Agent.Core/Agent.Core.csproj" />
+  <Project Path="Agent.Models/Agent.Models.csproj" />
+  <Project Path="Agent.Mvvm/Agent.Mvvm.csproj" />
+  <Project Path="smoke/smoke.csproj" />
+</Solution>
